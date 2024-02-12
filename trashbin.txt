@@ -1,0 +1,419 @@
+(S:TS_Quiz)=>void
+ 
+['']
+ 
+TS_Quiz
+ 
+    const [value, setValue] = useState("foo");
+    const [value2, setValue2] = useState("goo");
+ 
+foo
+ 
+      {props.children}
+ 
+const Provider({}:{})=>{
+  const [value, setValue] = useState("foo");
+  const [value2, setValue2] = useState("goo");
+
+  return (
+
+  );
+};
+ 
+    <Context.Provider
+      value={{ value: [value, setValue], value2: [value2, setValue2] }}
+    >
+      {props.children}
+    </Context.Provider>
+ 
+ = props => 
+ 
+ = props => 
+ 
+React.
+ 
+React.
+ 
+import { Context } from "../Context"
+ 
+const {SS_ThisPage}=useContext(Context)
+ 
+<TS_Context>
+ 
+SS_ThisPage
+ 
+function OpenNextPage(){
+    if
+}
+ 
+<TS_Context>
+ 
+<TS_Context
+ 
+{
+    SS_Quiz:{
+        Question:[
+            'What is A?',
+            'What is B?',
+            'What is C?'
+        ],
+        Choice:[
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+        ],
+        Answer:[
+            0,
+            1,
+            2
+        ]
+    },
+    setSS_Quiz:()=>{},
+    SS_Score:0,
+    setSS_Score:()=>{},
+    SS_ThisPage:0,
+    setSS_ThisPage:()=>{}
+}
+ 
+{
+    SS_Quiz:{
+        Question:[
+            'What is A?',
+            'What is B?',
+            'What is C?'
+        ],
+        Choice:[
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+        ],
+        Answer:[
+            0,
+            1,
+            2
+        ]
+    },
+    setSS_Quiz:()=>{},
+    SS_Score:0,
+    setSS_Score:()=>{},
+    SS_ThisPage:0,
+    setSS_ThisPage:()=>{}
+}
+ 
+    SS_Quiz:{
+        Question:[
+            'What is A?',
+            'What is B?',
+            'What is C?'
+        ],
+        Choice:[
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+        ],
+        Answer:[
+            0,
+            1,
+            2
+        ]
+    },
+    setSS_Quiz:()=>{},
+ 
+    SS_Quiz:TS_Quiz,
+    setSS_Quiz:(S:TS_Quiz)=>void,
+ 
+export 
+ 
+{
+    SS_Quiz:{
+        Question:['What is A?','What is B?','What is C?'],
+        Choice:[
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+            ['a','b','c','d'],
+        ],
+        Answer:[
+            0,
+            1,
+            2
+        ]
+    },
+    setSS_Quiz:()=>{},
+    SS_Score:0,
+    setSS_Score:()=>{},
+    SS_ThisPage:0,
+    setSS_ThisPage:()=>{}
+}
+ 
+S:TS_Quiz)=>void
+ 
+TS_Quiz
+ 
+SS_File:          {
+        AllFiles:null,
+        SelectThisFile:{
+            index:0,
+            mode:'Default'
+        },
+        FolderName:{
+            Img:'',
+            Text:''
+        }
+    },
+    setSS_File:()=>{},
+    SS_OCR:{
+        Operate:   false,
+        Languages: null,
+        PSM:       uPSM[0],
+    },
+    setSS_OCR:     ()=>{},
+    SS_ShowImg:{
+        Zoom:1,
+        OriginalImage:"EditedImage",
+    },
+    setSS_ShowImg:()=>{},
+    SS_EditImg:{
+        Operate:false,
+        Color:"Gray",
+        Rotate:0
+    },
+    setSS_EditImg:()=>{},
+    SS_ThisOCR:null,
+    setSS_ThisOCR:()=>{},
+    SS_ThisEditImg:null,
+    setSS_ThisEditImg:()=>{}
+ 
+    SS_File:          {
+        AllFiles:null,
+        SelectThisFile:{
+            index:0,
+            mode:'Default'
+        },
+        FolderName:{
+            Img:'',
+            Text:''
+        }
+    },
+    setSS_File:()=>{},
+    SS_OCR:{
+        Operate:   false,
+        Languages: null,
+        PSM:       uPSM[0],
+    },
+    setSS_OCR:     ()=>{},
+    SS_ShowImg:{
+        Zoom:1,
+        OriginalImage:"EditedImage",
+    },
+    setSS_ShowImg:()=>{},
+    SS_EditImg:{
+        Operate:false,
+        Color:"Gray",
+        Rotate:0
+    },
+    setSS_EditImg:()=>{},
+    SS_ThisOCR:null,
+    setSS_ThisOCR:()=>{},
+    SS_ThisEditImg:null,
+    setSS_ThisEditImg:()=>{}
+ 
+_Main
+ 
+_Main
+ 
+_Main
+ 
+Correct
+ 
+
+const UI_Button = (
+{
+Color,
+Text,
+Function,
+Key
+}
+:{
+Color:string,
+Text:string,
+Function:(S:void)=>void,
+Key:number
+})=>{
+return(
+
+<button style={{backgroundColor:Color}} key={Key} onClick={()=>Function()}>{Text}</button>
+
+)
+}
+
+export default UI_Button
+ 
+<button style={{backgroundColor:Color}} key={Key} onClick={()=>Function()}>{Text}</button>
+
+ 
+Function:(S:void)=>void,
+Key:number
+ 
+Color:string,
+ 
+Color,
+ 
+Function,
+Key
+ 
+if(index===Correct){
+let_color='green'
+}
+ 
+if()
+ 
+if(index===Correct){
+let_color='green'
+}
+ 
+else 
+ 
+
+}
+ 
+
+}
+ 
+<UI_Button
+Color="#AA0000"
+Text={Choice[0]}
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+<UI_Button
+Color="#AA0000"
+Text="Hello Dio"
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+<UI_Button
+Color="#AA0000"
+Text="Hello Dio"
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+<UI_Button
+Color="#AA0000"
+Text="Hello Dio"
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+ 
+Color:string,
+Text:string,
+Function:(S:void)=>void,
+Key:number
+ 
+Color,
+Text,
+Function,
+Key
+ 
+
+<button style={{backgroundColor:Color}} key={Key} onClick={()=>Function()}>{Text}</button>
+
+ 
+import UI_Button from "./UI_Button"
+ 
+<UI_Button
+Color="#AA0000"
+Text="Hello Dio"
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+<UI_Button
+Color="#AA0000"
+Text="Hello Dio"
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+<UI_Button
+Color="#AA0000"
+Text="Hello Dio"
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+<UI_Button
+Color="#AA0000"
+Text="Hello Dio"
+Function={()=>alert("Goodbye Jojo")}
+Key={0}
+/>
+ 
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
+ 
+()=>
+ 
+<div>
+ 
+</div>
+ 
+//************************************************************************************
+// USESTATE
+//************************************************************************************
+const[SS_EditImg,setSS_EditImg]=useState<TS_SS_EditImg>({
+    Operate:false,
+    Color:"Gray",
+    Rotate:0
+})
+const[SS_ShowImg,setSS_ShowImg]=useState<TS_SS_ShowImg>({
+    Zoom:1,
+    OriginalImage:"EditedImage",
+})
+const[SS_OCR,setSS_OCR]=useState<TS_SS_OCR>({
+Operate:   false,
+Languages: null,
+PSM:       uPSM[0] ,
+})
+const[SS_ThisEditImg,setSS_ThisEditImg]=useState<TS_SS_EditImg[]|null>(null)
+const[SS_ThisOCR,setSS_ThisOCR]=useState<TS_SS_OCR[]|null>(null)
+
+const[SS_File,setSS_File]=useState<TS_SS_File>({
+    AllFiles:null,
+    SelectThisFile:{
+        index:0,
+        mode:'Default'
+    },
+    FolderName:{
+        Img:'',
+        Text:''
+    }
+})
+//************************************************************************************
+// USEEFFECT
+//************************************************************************************
+useEffect(()=>{
+    //...
+},[])
+//************************************************************************************
+// VARIABLE
+//************************************************************************************
+
+//************************************************************************************
+// FUNCTION
+//************************************************************************************
+//************************************************************************************
+// OUTPUT
+//************************************************************************************
+//...
+ 
