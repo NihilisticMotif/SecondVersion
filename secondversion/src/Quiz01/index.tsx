@@ -11,7 +11,7 @@ export type TS_Context={
 
 }
 
-const Context=createContext<TS_Context>({
+const My_Context=createContext<TS_Context>({
     SS_Quiz:{
         Question:[''],
         Choice:[['']],
@@ -29,36 +29,38 @@ const Component = (
 }
 :{
 })=>{
-    const [SS_Quiz,setSS_Quiz]=useState<TS_Quiz>({
-      Question:[
-          "What is A?",
-          "What is B?",
-          "What is C?",
-      ],
-      Choice:[
-          ['a','b','c','d'],
-          ['a','b','c','d'],
-          ['a','b','c','d'],
-      ],
-      Answer:[
-          0,
-          1,
-          2
-      ]
-    })
-    const[SS_ThisPage,setSS_ThisPage]=useState<number>(0)
-    const[SS_Score,setSS_Score]=useState<number>(0)
+const [SS_Quiz,setSS_Quiz]=useState<TS_Quiz>({
+  Question:[
+      "What is A?",
+      "What is B?",
+      "What is C?",
+  ],
+  Choice:[
+      ['a','b','c','d'],
+      ['a','b','c','d'],
+      ['a','b','c','d'],
+  ],
+  Answer:[
+      0,
+      1,
+      2
+  ]
+})
+const[SS_ThisPage,setSS_ThisPage]=useState<number>(0)
+const[SS_Score,setSS_Score]=useState<number>(0)
 
 return(
-<Context.Provider
-  value={{
-    value: value, 
-    setValue: setValue, 
-    value2: value2,
-    setValue2: setValue2 
+<My_Context.Provider
+value={{
+    SS_Quiz:SS_Quiz,
+    setSS_Quiz:setSS_Quiz,
+    SS_Score:SS_Score,
+    setSS_Score:setSS_Score,
+    SS_ThisPage:SS_ThisPage,
+    setSS_ThisPage:setSS_ThisPage
 }}
 >
-</Context.Provider>
+</My_Context.Provider>
 )
 }
 

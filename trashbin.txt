@@ -1,3 +1,11 @@
+import My_Context;
+ 
+const {SS_ThisPage} = useContext(My_Context);
+ 
+React.
+ 
+import My_Co
+ 
 (S:TS_Quiz)=>void
  
 ['']
