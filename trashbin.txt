@@ -1,3 +1,7 @@
+async
+ 
+Questions
+ 
 (-(f*d*a)/(f*c)+b)
  
 /randomIntFromInterval(1,10)

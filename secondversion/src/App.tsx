@@ -1,11 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Component from './Quiz01';
+import Quiz01 from './Quiz01';
 function App() {
   return (
 <div>
-<Component/>
+<Quiz01/>
 </div>
   );
 }

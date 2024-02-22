@@ -11,7 +11,7 @@ import Page from "./Page"
 import let_Q1 from './Problem/limit'
 import let_Q2 from './Problem/quadratic'
 import { shuffle } from './Problem/utility'
-const Component = (
+const Quiz01 = (
 {
 }
 :{
@@ -45,4 +45,4 @@ value={{
 }
 // rgb(2,153,210)
 // #0299D2
-export default Component
+export default Quiz01
