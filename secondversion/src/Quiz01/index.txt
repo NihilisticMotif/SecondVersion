@@ -1,0 +1,21 @@
+<div style={{backgroundImage: `url(${img})`,marginTop:'-20px',color:'red'}}>
+{/*
+<My_Context.Provider
+value={{
+    Quiz:SS_Quiz,
+    setQuiz:setSS_Quiz,
+    Score:SS_Score,
+    setScore:setSS_Score,
+    ThisPage:SS_ThisPage,
+    setThisPage:setSS_ThisPage,
+}}
+>
+{
+//<Page/>
+}
+[<h1>deded</h1>]
+
+</My_Context.Provider>
+*/}
+<h1>dedefe</h1>
+</div>

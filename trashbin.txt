@@ -1,3 +1,402 @@
+(-(f*d*a)/(f*c)+b)
+ 
+/randomIntFromInterval(1,10)
+ 
+/randomIntFromInterval(1,10)
+ 
+/randomIntFromInterval(1,10)
+ 
+/r
+ 
+/randomIntFromInterval(1,10)
+ 
+/randomIntFromInterval(1,10)
+ 
+not 
+ 
+ew
+ 
+import let_Q1 from '../Problem/limit'
+import let_Q2 from '../Problem/quadratic'
+import { shuffle } from '../Problem/utility'
+ 
+, What is x?
+ 
+,shuffle 
+ 
+  let x1 = randomIntFromInterval(-10, 10)/randomIntFromInterval(1,10)
+  let x2 = randomIntFromInterval(-10, 10)/randomIntFromInterval(1,10)
+  let x3 = randomIntFromInterval(-10, 10)/randomIntFromInterval(1,10)
+  let x4 = randomIntFromInterval(-10, 10)/randomIntFromInterval(1,10)
+ 
+  let let_Ans=-b/a
+ 
+function randomIntFromInterval(min:number, max:number) { // min and max included 
+    // https://stackoverflow.com/questions/4959975/generate-random-number-between-two-numbers-in-javascript
+  return Math.floor(Math.random() * (max - min + 1) + min)
+}
+ 
+/randomIntFromInterval(1,10)
+ 
+(a*c).toString()+"x^2 + "+(a*d+b*c).toString()+" x + "+b*d+" = 0, What is x?"
+ 
+ls.push()
+ 
+let let_Question=[]
+let let_Options:number[][]=[]
+let let_Answer=[]
+ 
+let rndInt = randomIntFromInterval(-10, 10)/randomIntFromInterval(1,10)
+ 
+    text-align: center;
+        align-items: center;
+        justify-content: center;
+ 
+style={{backgroundColor:'red'}}
+ 
+a(255,255,255,1)
+ 
+ackgroundColor:'rgba(255,255,255, 1)',padding:'10px'}}
+ 
+// 
+ 
+"Start" 
+ 
+<div style={{height:'10px'}}></div>
+ 
+{
+JSX_Start
+}
+ 
+</div>
+ 
+<div style={{position:'absolute'}}>
+ 
+</>
+ 
+7
+ 
+    display:flex;
+ 
+    margin-top: 25vh;
+ 
+display: 'flex',
+ 
+width:'300px'
+ 
+lassName='Text
+ 
+.Text{
+    font-size: 16;
+}
+ 
+justifyContent: 'center'
+ 
+display: 'flex'
+ 
+display: 'inline-block'
+ 
+,transform: 'translateY(50%)'
+ 
+fontSize:'16px'
+ 
+R
+ 
+color:'black',
+    height:'100vh',
+    backgroundRepeat: 'no-repeat',
+    backgroundColor:'#0299D3',
+    backgroundPosition: "Right"
+ 
+createContext,
+ 
+const[SS_IsOpen,setSS_IsOpen]=useState<boolean>(false)
+ 
+<input type='color'></input>
+ 
+ttps://www.amazon.com/Weezer-Blue-Album/dp/B000003TAW
+ 
+https://www.amazon.com/Weezer-Blue-Album/dp/B000003TAW
+ 
+backgroundColor:'green'
+ 
+ style={{}}
+ 
+justifyContent: 'space-between'
+ 
+Display={'inline-block'}
+ 
+Color={'green'}
+ 
+Display={'inline-block'}
+ 
+,marginLeft:'10px'
+ 
+<UI_Title Text={'
+ 
+}/>
+ 
+</div>
+ 
+inline-
+ 
+// Ans
+ 
+function f_Answer(index:number){
+    if(SS_IsAns===false){
+        setSS_IsAns(true)
+        setSS_Answer(index)
+    }
+}
+ 
+// UnAns & Ans
+ 
+// UnAns & Ans
+ 
+
+// UnAns & Ans
+ 
+{JSX_Space}
+ 
+</>
+ 
+div
+ 
+div style={{display:'block'}}
+ 
+</div>
+ 
+\n
+ 
+<h1 className='YourName'>{Text}</h1>
+ 
+marginTop:'-20px',
+ 
+{
+//
+ 
+}
+<h1>deded</h1>
+ 
+*/}
+<h1>dedefe</h1>
+ 
+{/*
+ 
+<p>
+ 
+<p>dedefe</p>
+ 
+,height: '100vh'
+ 
+ style={{backgroundImage: `url(${img})`,marginTop:'-20px',color:'red'}}
+ 
+{/*
+<My_Context.Provider
+value={{
+    Quiz:SS_Quiz,
+    setQuiz:setSS_Quiz,
+    Score:SS_Score,
+    setScore:setSS_Score,
+    ThisPage:SS_ThisPage,
+    setThisPage:setSS_ThisPage,
+}}
+>
+{
+//<Page/>
+}
+[<h1>deded</h1>]
+
+</My_Context.Provider>
+*/}
+ 
+</>
+ 
+<>
+ 
+</>
+ 
+backgroundImage: `url(${img})`,
+ 
+<h1>deded</h1>
+ 
+    color: azure;
+ 
+<Page/>
+ 
+style={{height:'100%'}}
+ 
+ , height:'100%'
+ 
+* as 
+ 
+.toString()
+ 
+</div>
+ 
+Build a 
+ 
+    setSS_IsAns(false)
+ 
+    setSS_IsAns(false)
+    setSS_Answer(null)
+ 
+<UI_Button 
+Color={'white'} 
+Text="Next Question" 
+Function={()=>{
+    SS.setThisPage((SS.ThisPage+1)%SS.Quiz.length);
+    setSS_IsAns(false)
+}}
+Key={-1}
+/>
+ 
+<UI_Button 
+Color={'white'} 
+Text="Start" 
+Function={()=>SS.setThisPage(0)}
+Key={-2}
+/>
+ 
+].Answer
+ 
+SS.Quiz[
+ 
+var cheche='cheche'
+ 
+import { useContext } from "react"
+ 
+if(index===)
+ 
+alert(index)
+ 
+</il>
+ 
+ style={{display:'block'}}
+ 
+<div></div>
+ 
+<li>{i}</li>
+ 
+.Questions
+ 
+<UI_Button 
+Color={'white'} 
+Text="Start" 
+Function={()=>alert('')}
+Key={-2}
+/>
+ 
+<div>
+{
+JSX_Question
+}
+{
+JSX_Answer
+}
+</div>
+ 
+''
+ 
+<p></p>
+ 
+SS_
+ 
+SS_T
+ 
+SS_
+ 
+SS_
+ 
+SS_
+ 
+SS_
+ 
+SS_
+ 
+ 
+ 
+SS_
+ 
+const SS_ThisPage=useContext(My_Context)
+const SS_Score=useContext(My_Context)
+ 
+let SS_Quiz=['','sggd','emma']
+ 
+    SS_IsOpen:SS_IsOpen,
+    setSS_IsOpen:setSS_IsOpen
+ 
+    SS_IsOpen:false,
+    setSS_IsOpen:()=>{}
+ 
+    SS_IsOpen:boolean,
+    setSS_IsOpen:(S:boolean)=>void
+ 
+const SS_ThisPage=useContext(My_Context)
+ 
+SS_Score
+ 
+
+SS_Score:number
+ 
+ "+SS_PageNo.toString()+"/"+Length.toString()
+ 
+let JSX_Next =''
+ 
+{JSX_}
+ 
+<UI_Title Text={'React Quiz'}/>
+ 
+<UI_Title Text={"Score "+SS_Score.toString()}/>
+ 
+<UI_Title Text={"Score "+SS_Score.toString()}/>
+ 
+export default ss='ss'
+ 
+ const 
+ 
+Question:[
+      "What is A?",
+      "What is B?",
+      "What is C?",
+      "What is E?",
+  ],
+  Choice:[
+      ['a','b','c','d'],
+      ['a','b','c','d'],
+      ['a','b','c','d'],
+      ['a','b','c','None'],
+  ],
+  Answer:[
+      0,
+      1,
+      2
+  ]
+ 
+export type TS_Context={
+    SS_Quiz:TS_Quiz,
+    setSS_Quiz:(S:TS_Quiz)=>void
+    SS_ThisPage:number,
+    setSS_ThisPage:(S:number)=>void,
+    SS_Score:number,
+    setSS_Score:(S:number)=>void
+}
+
+const My_Context=createContext<TS_Context>({
+    SS_Quiz:{
+        Question:[''],
+        Choice:[['']],
+        Answer:[0]
+    },
+    setSS_Quiz:()=>{},
+    SS_ThisPage:0,
+    setSS_ThisPage:()=>{},
+    SS_Score:0,
+    setSS_Score:()=>{}
+})
+ 
+_Header
+ 
 import My_Context;
  
 const {SS_ThisPage} = useContext(My_Context);

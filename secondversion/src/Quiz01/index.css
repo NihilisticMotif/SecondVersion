@@ -1,0 +1,13 @@
+.OuterDiv{
+    color: 'black';
+    height:100vh;
+    background-repeat: no-repeat;
+    background-color:#0299D3;
+    background-position: right;
+    /*
+    https: //youtu.be/QdITQ4upjME?si=E_STyAp7yAquIZyg
+    */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
