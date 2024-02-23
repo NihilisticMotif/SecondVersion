@@ -8,12 +8,13 @@ const Page = (
 }
 :{
 })=>{
+//*************************************************************************************
 // SS = SetState
 const SS=useContext(My_Context)
 const[SS_IsOpen,setSS_IsOpen]=useState<boolean>(false)
 const[SS_IsAns,setSS_IsAns]=useState<boolean>(false)
 const[SS_Answer,setSS_Answer]=useState<number|null>(null)
-
+//*************************************************************************************
 useEffect(()=>{
 if(SS_Answer===SS.Quiz[SS.ThisPage].Answer){
 SS.setScore(SS.Score+1)
@@ -30,6 +31,7 @@ if(0===SS.ThisPage){
 SS.setScore(0)
 }
 },[SS.ThisPage])
+//*************************************************************************************
 
 function f_Answer(index:number){
     if(SS_IsAns===false){
@@ -40,7 +42,6 @@ function f_Answer(index:number){
 
 let JSX_Space=<div style={{height:'10px'}}></div>
 let JSX_Space2=<div style={{marginTop:'-10px'}}></div>
-
 let JSX_Title=<UI_Title Text={'React Quiz'} FontSize={30} Display={'inline-block'}/>
 // Display={'inline-block'}
 

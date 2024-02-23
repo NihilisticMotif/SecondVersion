@@ -1,0 +1,28 @@
+import React from 'react';
+// Types
+import { AnswerObject } from '../App';
+
+// Styles
+
+
+type Props = {
+  Question: string;
+  Answers: string[];
+  callback: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  UserAnswer: AnswerObject | undefined;
+  PageIndex: number;
+  Length: number;
+};
+
+const QuestionCard: React.FC<Props> = ({
+  Question,
+  Answers,
+  callback,
+  UserAnswer,
+  PageIndex,
+  Length,
+}) => (
+
+);
+
+export default QuestionCard;
