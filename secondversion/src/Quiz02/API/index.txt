@@ -1,0 +1,37 @@
+import { shuffle } from "../utility/shuffle";
+import { TS_Quiz } from "./type";
+import { DIFFICULT } from "./difficult";
+import { useState } from "react";
+// What is async, await and Promise?
+// * sync
+// - It means the program works in order.
+// * Promise
+// - Promise let the function return unknown value as the known value.
+//   That value will be determined if it valid (resolve) or not (reject)
+//   So that th other part of the software can works without waiting on decide if the value valid or not
+// * async
+// - This word is used before function.
+// * await
+// - This word is used before nested function inside the async function.
+// * note
+// - async and await are another ways to write promise.
+// - It is usually not recommented to code async and await in loop.
+// * Reference
+// - https://blog.webdevsimplified.com/2021-11/async-await/
+// - https://youtu.be/DHvZLI7Db8E?si=Uw2Vi2_TjQJzPw8m
+// - https://blog.webdevsimplified.com/2021-09/javascript-promises/
+// - https://youtu.be/V_Kr9OSfDeU?si=lxjYMBd8XSjtbk9P
+// - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+// - https://youtu.be/RvYYCGs45L4?si=llvWfxe9z2v8oiro
+
+export type QuizState = TS_Quiz & { answers: string[] };
+
+export const FetchQuiz = async (amount: number, difficulty: typeof DIFFICULT[number]): Promise<QuizState[]> => {
+  const endpoint = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`;
+  const data = (fetch(endpoint));
+  return data
+  /* data.results.map((question: TS_Quiz ) => ({
+    ...question,
+    answers: shuffle([...question.incorrect_answers, question.correct_answer])
+  }))*/
+};

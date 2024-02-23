@@ -1,3 +1,87 @@
+
+// export async function displayAPI(){
+//     try{
+//         const data = await FetchAPI(10,0)
+//         console.log(JSON.stringify(data))
+//         return data
+//     }
+//     catch{
+//         console.log(console.error());
+//         return 'loading ...'
+//     }
+// }
+ 
+    // .then(res => {
+    //     console.log(res.ok) // true
+    //     console.log(res.status) // 200
+    //     return res.json()
+    // })
+ 
+display
+ 
+export type TS_OptionAns=TS_Quiz & {options:string[]}
+ 
+  correct_answer: string;
+  incorrect_answers: string[];
+ 
+question: string;
+ 
+category: string;
+ 
+difficulty: typeof DIFFICULT[number];
+ 
+    let difficulty=DIFFICULT[0]
+    let amount=10
+ 
+SON.stringify(data)
+ 
+.result
+ 
+    //let data = fetch(`https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`).then(res => {
+    //let data = fetch("https://jsonplaceholder.typicode.com/users").then(res => {
+ 
+JSON.stringify(
+ 
+&difficulty=${difficulty}&type=multiple
+ 
+https://jsonplaceholder.typicode.com/users
+ 
+    })
+ 
+    return new Promise((resolve,reject)=>{
+ 
+console.log(JSON.stringify(FetchQuiz(10,DIFFICULT[0])))
+ 
+import { FetchQuiz } from "./FetchQuiz"
+ 
+await 
+ 
+.json()
+ 
+await 
+ 
+{JSON.stringify(FetchQuiz(10,DIFFICULT[2]))}
+ 
+// * TS_Quiz & { answers: string[] }
+ 
+// * 
+ 
+// * Promise
+ 
+// * Promise
+ 
+// * Promise
+// * async
+// * await
+ 
+*/
+ 
+/*
+ 
+// - It is the code that execute the 
+// - Promise return resolve and reject
+// - resolve = 
+ 
 // 
  
   <Wrapper>
